@@ -1,0 +1,27 @@
+h1, h2, p{
+   font-family: Arial, Helvetica, sans-serif;
+} 
+/* */
+aside {
+    width: 196px;
+}
+#content {
+    display: flex;
+    width: 800px;
+}
+.d-flex {
+    display: flex; 
+}
+
+.bg-color-green {
+    background-color: aquamarine;
+}
+.bg-color-red {
+    background-color: darksalmon;
+}
+.bg-color-blue {
+    background-color: lightblue;
+}
+.bg-color-pink {
+    background-color: lightpink;
+}
