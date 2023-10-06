@@ -3,12 +3,17 @@
 
 *{
     font-family: Caveat, Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 25px;
+    font-size: 40px;
     /* font-style: italic; */
 }
 
-body {
+html {
+    font-size: 16px; /* este es nuestro root */
+}
+
+.body {
     margin: 0;
+    margin-top: 6rem;
 }
 
 nav ul {
@@ -27,37 +32,42 @@ nav ul li {
 nav ul li a{
     color: grey;
     text-decoration: none;
+    font-size: 30px;
 }
-
-
 
 h1{
     margin: 0;
     font-weight: 700;
+    font-size: 3rem;
 }
 h2{
     font-weight: 500;
 }
-p, a, li {
+/* p, a, li {
     font-weight: 400;
-}
+} */
 
 p, li {
-    font-size: 16px;
+    font-size: 30px;
 }
 
 a { /*Con respecto al elemento padre */
-        font-size: 1.5em;
-        /* Con respecto a la configuracion de root*/
+    
+    /* Con respecto a la configuracion de root*/
     /* font-size: 1.5rem */
-    }
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+header a h1 {
+    color: black;
+}
 
 section{
-    padding: 0 5%;
+    padding: 1rem 5%;
 }
 
 #clientes p{
-    color: #198038;
+    color: #126c2d;
 }
 
 .d-flex {
@@ -72,7 +82,7 @@ section{
     float: right;
 }
 .height-200{
-    height: 200px !important;
+    height: 300px !important;
 }
 
 .image-container{
@@ -91,9 +101,12 @@ section{
     display: flex;
     background-color: azure;
     justify-content: space-between;
+    position: fixed;/* mantener fija la barra del header */
     align-items: center;
     padding: 8px;
     border-bottom: 1px solid black;
+    top: 0;
+    width: 100%;
 }
 .text {
     text-align: justify;
@@ -109,4 +122,29 @@ section{
     height: 250px;
     margin: 16px;
     border: 4px solid black;
+}
+
+.nosotros-banner {
+    margin-top: 4rem;
+    background-image: url(https://images.unsplash.com/photo-1454372182658-c712e4c5a1db?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80);
+    background-size: cover;
+    background-position-x: 50%; 
+    background-position-y: 50%; 
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* orientacion vertical */
+    justify-content: center; /* orientacion horizontal */
+}
+
+.nosotros-banner h2 {
+    background-color: #12281670;
+    font-size: 6rem;
+    color: #e6e6e6;
+    text-align: center;
+}
+.nosotros-banner p {
+    background-color: #12281670;
+    color: #e6e6e6;
+    text-align: center;
 }
