@@ -1,0 +1,42 @@
+form {
+    margin: 2rem;
+    padding-top: 3rem;
+}
+form button {
+    width: 27rem;
+    border-radius: 1.5rem;
+    background-color: blueviolet;
+    color: rgb( 210,194,225);
+    padding: 0.5rem;
+}
+form button:hover {
+    color: blueviolet;
+    background-color: rgb( 210,194,225);
+}
+input, textarea {
+    border-radius: 1.5rem ;
+    border: 1px solid black;
+    display: block;
+    font-size: 20px !important;
+    font-family: sans-serif;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    width: 25rem;
+    /* resize: none; para evitar cambio tamañaño texarea*/
+
+}
+input {
+   height: 1.5rem; 
+}
+
+.label-conditions {
+    display: inline-block;
+
+}
+input[type="checkbox"] {
+    width: 1.5rem;
+}
+.field-conditions {
+    display: flex;
+    align-items: center;
+}

@@ -18,6 +18,7 @@ nav ul li a{
 }
 header a h1 {
     color: black;
+    margin-left: 2rem;
 }
 .header-container {
     display: flex;
@@ -25,7 +26,7 @@ header a h1 {
     justify-content: space-between;
     position: fixed;/* mantener fija la barra del header */
     align-items: center;
-    padding: 8px;
+    /* padding: 8px; */
     border-bottom: 1px solid black;
     top: 0;
     width: 100%;
@@ -42,7 +43,7 @@ a:visited
 */
 a:hover {
     color: rgb(0, 29, 159);
-    font-size: 2rem;
+    /* font-size: 2rem; */
     text-decoration: underline;
     cursor: pointer;
     
