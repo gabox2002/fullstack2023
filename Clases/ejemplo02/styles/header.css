@@ -2,6 +2,26 @@ nav ul {
     list-style-type: none; 
     display: flex;
     padding: 0;
+    flex-wrap: wrap;
+}
+.sub-menu {
+    display: none;
+    background-color: rgb(255, 242, 226);
+    border-bottom: 1px solid black;
+
+}
+@media (max-width: 1400px) {
+    header nav ul {
+        display: none;
+    }
+    .sub-menu {
+        display: block;
+
+    }
+    .sub-menu nav ul {
+        justify-content: start;
+        /* background-color: antiquewhite; */
+    }
 }
 
 nav ul li {
@@ -30,6 +50,7 @@ header a h1 {
     border-bottom: 1px solid black;
     top: 0;
     width: 100%;
+    min-height: 62px;
 }
 
 /*Pseudo clases
@@ -43,10 +64,15 @@ a:visited
 */
 a:hover {
     color: rgb(0, 29, 159);
-    /* font-size: 2rem; */
+    font-size: 2rem;
     text-decoration: underline;
     cursor: pointer;
     
+}
+@media (max-width: 1400px) {
+    a:hover{
+       font-size: 1rem; 
+    } 
 }
 
 a:visited {

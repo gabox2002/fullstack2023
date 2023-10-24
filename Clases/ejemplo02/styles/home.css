@@ -17,10 +17,16 @@
 }
 
 .galery-images{
+    border: 4px solid black;
     height: 250px;
     margin: 16px;
-    border: 4px solid black;
 }
 #clientes p{
     color: #126c2d;
+}
+
+@media (max-width: 768px){
+    .img1 {
+        order: 6;
+    }
 }
