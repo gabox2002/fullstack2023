@@ -1,23 +1,30 @@
-// Las variables declaradas como "var"van a poder accederse desde cualquier lugar del archivo js y podrán cambiar su valor y redefinirse
-var cadena = "Esta es una cadena de caracteres y la vamos a llamar STRING";
+// Las variables declaradas como "var" van a poder accederse desde cualquier
+// lugar del archivo js y podrá cambiar su valor y redeclarar
+var cadena = 'Esta es una cadena de caracteres, y la vamos a llamar STRING';
 // cadena = 5;
 
-// Las variables declaradas como "let" solo se va a poder acceder dento de un bloque de codigo se van a poder redeclarar y cambiar su valor
+// Las variables declaradas como "let" solo se va a poder acceder dentro de un determinado bloque de código (funciones)
+// se van a poder redeclarar y cambiar su valor
 let numero = 4;
-//numero = false;
+// numero = false;
 
-// la variables declaradas como "const" solo se va a poder redefinir
-// NO se podran redeclarar aunque podriamos hacer qu
-const booleano = false; // o true
+// Las variables declaradas como "const" solo se va a poder acceder dentro de un determinado bloque de código (funciones)
+// NO se podrán redeclarar aunque podríamos hacer que su valor cambie
+const booleano = false; // (or true, para los datos tipo booleano)
+// booleano = numero X Error ilegal
 
-//booleano = numero  ** ERROR ILEGAL
-
-
-
-
-console.log("hello world");
+console.log("Hello world!");
 console.log(cadena);
 console.log(numero);
-console.log(booleano);
+console.log(typeof booleano);
 
-console.log("/----------------------------------/")
+console.log("/--------------------------/")
+
+let number = 2;
+
+// console.log(constant)
+number = number + 3;
+
+const constant = number;
+
+console.log(constant);
