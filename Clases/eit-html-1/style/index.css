@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&display=swap');
+
+* {
+    font-family: 'Orbitron', sans-serif;
+    font-style: italic;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+    margin-top: 4.75rem;
+}
+
+h1 {
+    font-family: 'varsity', cursive;
+    margin: 0;
+    font-weight: 900; /* No tiene efecto alguno porque no està configurado en los fonts faces */
+    font-size: 2rem; /* 32px */
+}
+
+h2 {
+    font-weight: 700;
+}
+
+p, a, li {
+    font-weight: 400;
+}
+
+p, li {
+    font-size: 16px;
+}
+
+a {
+    /*Con respecto a elemento padre*/
+    /* font-size: 1.5em; */
+    /*Con respecto a la configuracion del root*/
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+@media (max-width: 1400px) {
+    a {
+        font-size: 1rem;
+    }
+}
+
+section {
+    padding: 1rem 5%;
+}
+
+/* Helpers */
+
+.d-flex {
+    display: flex;
+}
+
+.float-right {
+    float: right;
+}
+
+.width-200 {
+    width: 200px;
+}
+
+.ml-1 {
+    margin-left: 0;
+}
+
+.font-fam-orbitron {
+    font-family: Orbitron;
+}
