@@ -1,0 +1,22 @@
+
+.text-center {
+    text-align: center;
+}
+
+.col-style {
+    background: rgb(144, 130, 238);
+    border: 1px solid rgb(96, 82, 191);
+    padding: 5rem;
+}
+
+.bg-orange {
+    background-color: rgb(251, 197, 97);
+}
+
+.bg-green {
+    background-color: rgb(121, 177, 121);
+}
+
+.justify-space-between { 
+    justify-content: space-between; /*space-evenly y space-around*/
+}

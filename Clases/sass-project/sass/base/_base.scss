@@ -1,0 +1,16 @@
+
+html {
+    font-size: 16px;
+}
+
+h1 {
+    color: $primary-color;
+    // overflow: hidden;
+    // white-space: nowrap;
+    // animation: typing 5s steps(200, end) forwards;
+}
+
+p {
+    color: darken($color: $primary-color, $amount: 20);
+    font-size: $font-size-lg;
+}
