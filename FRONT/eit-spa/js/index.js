@@ -18,7 +18,7 @@ const onLoadTemplate = template => {
         location.hash = ""
     }
     const xhr = new XMLHttpRequest();
-    xhr.open("get", `../pages/${template}.html`)
+    xhr.open("get", `./pages/${template}.html`)
     xhr.addEventListener("load", 
         () => {
             mainElem.innerHTML = xhr.response
