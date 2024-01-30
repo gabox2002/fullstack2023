@@ -1,0 +1,36 @@
+
+body {
+    padding-bottom: 3.5rem;
+    margin-top: 4.5rem;
+}
+
+
+footer {
+    min-height: 2.5rem;
+    background-color: var(--bs-indigo);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/*Piso estilos de bootstrap*/
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.label-required::after {
+    content: "(*)";
+    color: rgb(182, 17, 17);
+    margin-left: 0.5rem;
+}
+
+.form-control[aria-invalid="true"] {
+    outline: 2px solid rgb(182, 17, 17);
+}
+
+.input-msg-error {
+    display: none;
+    color: rgb(182, 17, 17)
+}
